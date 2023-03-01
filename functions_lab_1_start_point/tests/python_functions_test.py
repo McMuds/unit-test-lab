@@ -40,7 +40,7 @@ class TestPythonFunctionPractice(unittest.TestCase):
       self.assertEqual( 21, string_length )
 
 
-  @unittest.skip("delete this line to run the test")
+  #@unittest.skip("delete this line to run the test")
   def test_join_string(self):
       string_1 = "Mary had a little lamb, "
       string_2 = "its fleece was white as snow"
@@ -48,25 +48,25 @@ class TestPythonFunctionPractice(unittest.TestCase):
       self.assertEqual( "Mary had a little lamb, its fleece was white as snow", joined_string )
 
 
-  @unittest.skip("delete this line to run the test")
+  #@unittest.skip("delete this line to run the test")
   def test_add_string_as_number(self):
       add_result = add_string_as_number( "1", "2" )
       self.assertEqual( 3, add_result )
 
 
-  @unittest.skip("delete this line to run the test")
+  #@unittest.skip("delete this line to run the test")
   def test_number_to_full_name__month_1(self):
       result = number_to_full_month_name( 1 )
       self.assertEqual( "January", result )
 
 
-  @unittest.skip("delete this line to run the test")
+  #@unittest.skip("delete this line to run the test")
   def test_number_to_full_name__month_3(self):
       result = number_to_full_month_name( 3 )
       self.assertEqual( "March", result )
 
 
-  @unittest.skip("delete this line to run the test")
+  #unittest.skip("delete this line to run the test")
   def test_number_to_full_name__month_9(self):
       result = number_to_full_month_name( 9 )
       self.assertEqual( "September", result )
