@@ -29,3 +29,18 @@ def number_to_full_month_name(month_number):
         "December"]
     
     return months[month_number - 1]
+
+def number_to_short_month_name(month_number):
+    return number_to_full_month_name(month_number)[:3]
+
+def get_cube_volume(side_length):
+    return side_length ** 3
+
+def reverse_string(string):
+    new_string = ""
+    for char in string:
+        new_string = char + new_string
+    return new_string
+
+def fahrenheit_to_celsius(fahrenheit_temp):
+    return (fahrenheit_temp - 32) / 1.8
