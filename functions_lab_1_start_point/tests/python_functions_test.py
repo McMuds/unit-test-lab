@@ -15,25 +15,25 @@ class TestPythonFunctionPractice(unittest.TestCase):
       self.assertEqual( 3, add_result )
 
 
-  @unittest.skip("delete this line to run the test")
+  #@unittest.skip("delete this line to run the test")
   def test_subtract(self):
       subtract_result = subtract( 10, 5 )
       self.assertEqual( 5, subtract_result )
 
 
-  @unittest.skip("delete this line to run the test")
+  #@unittest.skip("delete this line to run the test")
   def test_multiply(self):
       multiply_result = multiply( 4, 2 )
       self.assertEqual( 8, multiply_result )
 
 
-  @unittest.skip("delete this line to run the test")
+  #@unittest.skip("delete this line to run the test")
   def test_divide(self):
       divide_result = divide( 10, 2 )
       self.assertEqual( 5, divide_result )
 
 
-  @unittest.skip("delete this line to run the test")
+  #@unittest.skip("delete this line to run the test")
   def test_length_of_string(self):
       test_string = "A string of length 21"
       string_length = length_of_string( test_string )
